@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'Netflix Sans';
+    src: url(./circular-std-medium-500.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(netflix4.jpg);
+    background-size: cover;
+    
+}
+
+.top-left-logo{
+    width: 150px;
+    height: 100px;
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-left: 150px;
+    }
+}
+.top-right-button{
+    margin-left: 81%;
+    margin-top: -70px;
+    width: 100px;
+    height: 50px;
+    >button{
+        width: 75px;
+        height: 32px;
+        background-color: #e50914;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color: #b30c14;
+    }
+}
+
+.text-in-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+    font-family: 'Netflix Sans';
+    >h1{
+        font-size: 50px;
+        font-weight: 500px;
+    }
+
+
+}
