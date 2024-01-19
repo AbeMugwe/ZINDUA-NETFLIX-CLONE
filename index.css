@@ -47,6 +47,7 @@ body{
         border-radius: 8px;
         cursor: pointer;
         transition: 0.3s;
+        font-family: 'Netflix Sans';
     }
     button:hover{
         background-color: #b30c14;
