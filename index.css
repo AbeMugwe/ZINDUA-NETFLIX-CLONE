@@ -107,6 +107,148 @@ body{
     border-radius: 8px;
     border: 0;
     outline: 0;
-    
 
 }
+
+.gap{
+    background-color: rgb(56, 54, 54);
+    width: 100%;
+    height: 10px;
+}
+
+.Enjoy-your-tv{
+    height: 500px;
+    width: 100%;
+    font-family: 'Netflix Sans';
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.enjoy-text{
+    width: 550px;
+    >h1{
+        font-size: 50px;
+
+    }
+    
+    >p{
+        font-size: 20px;
+    }
+
+}
+
+.tv-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.Download{
+    height: 500px;
+    width: 100%;
+    font-family: 'Netflix Sans';
+    display: flex;
+    padding: 30px;
+
+}
+.Stranger-Things{
+    height: 400px;
+    width: 700px;
+    margin-left: 150px;
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+ 
+}
+.Downloadtext{
+    margin-left: 60px;
+
+}
+.Strong{
+    margin-right: 300px;
+    >h1{
+        font-size: 50px;
+    }
+}
+.save{
+   font-size: 20px;
+   margin-right: 300px;
+   margin-top: 30px;
+}
+
+.watch-everwhere{
+    height: 500px;
+    width: 100%;
+    font-family: 'Netflix Sans';
+    display: flex;
+    padding: 30px;
+}
+
+.watchtext{
+    margin-top: 12%;
+    margin-left: 100px;
+}
+.watch{
+    >h1{
+        font-size: 50px;
+    }
+}
+.stream{
+    margin-top: 30px;
+    margin-right: 100px;
+    >p{
+        font-size: 20px;
+    }
+}
+.tv2{
+    height: 400px;
+    width: 700px;
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.kids{
+    height: 500px;
+    width: 100%;
+    font-family: 'Netflix Sans';
+    display: flex;
+    flex-direction: row;
+    
+}
+.Kidstext{
+    margin-left: 600px;
+    
+    font-family: 'Netflix sans';
+}
+
+.Create{
+    margin-right: 350px;
+    >h1{
+        font-size: 50px;
+    }
+}
+
+.send{
+    margin-right: 100px;
+    >p{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
