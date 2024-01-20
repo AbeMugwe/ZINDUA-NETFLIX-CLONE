@@ -107,8 +107,13 @@ body{
     border-radius: 8px;
     border: 0;
     outline: 0;
-
+    cursor: pointer;
+    transition: 0.3s;
 }
+.button2:hover{
+    background-color: #b30c14;
+}
+
 
 .gap{
     background-color: rgb(56, 54, 54);
@@ -219,36 +224,92 @@ body{
         object-fit: contain;
     }
 }
-
-.kids{
+.Kids{
     height: 500px;
     width: 100%;
     font-family: 'Netflix Sans';
     display: flex;
-    flex-direction: row;
-    
-}
-.Kidstext{
-    margin-left: 600px;
-    
-    font-family: 'Netflix sans';
+    padding: 30px;
 }
 
-.Create{
-    margin-right: 350px;
+.Kidsimage{
+    width: 800px;
+    height: 400px;
+    margin-left: 200px;
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+}
+
+.Kidstext{
+    margin-top: 100px;
+    >h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        margin-right: 320px;
+    }
+
+    >p{
+        font-size: 20px;
+        margin-right: 400px;
+
+    }
+}
+
+.Frequently-asked{
+    height: 900px;
+    width: 100%;
+    font-family: 'Netflix Sans';
+    display: flex;
+
+}
+
+.heading{
+    margin-left: 400px;
+    margin-top: 40px;
     >h1{
         font-size: 50px;
     }
 }
 
-.send{
-    margin-right: 100px;
-    >p{
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 10px;
+    margin-top: 50px;
+    >button{
+        height: 80px;
+        width: 900px;
         font-size: 20px;
+        text-align: start;
+        background-color: rgb(56, 54, 54);
+        color: white;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: 0.3s;
+        
     }
+    button:hover{
+        background-color: rgb(78, 72, 72);
+        
+    }
+    
 }
 
-
-
-
-
+.faq{
+    margin-left: 30px;
+    font-family: 'Netflix Sans';
+    
+}
+.ready{
+    margin: 60px 0 0 370px;
+    font-size: 20px;
+}
+.button-in-faq{
+    margin: 20px 0 0 400px;
+}
